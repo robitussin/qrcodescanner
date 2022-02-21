@@ -108,7 +108,9 @@ class MyCustomForm extends StatelessWidget {
                     primary: Colors.white,
                     textStyle: const TextStyle(fontSize: 10),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/navigation');
+                  },
                   child: const Text(
                     'SIGN IN',
                     style: TextStyle(

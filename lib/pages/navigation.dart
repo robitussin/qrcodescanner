@@ -57,80 +57,88 @@ class _NavigationState extends State<Navigation> {
                 SizedBox(height: 100.0),
                 Row(
                   children: <Widget>[
-                    Icon(
-                      Icons.qr_code_scanner,
-                      color: Colors.white,
-                      size: 30.0,
-                    ),
-                    SizedBox(width: 30.0),
-                    Text(
-                      'SCAN',
-                      style: TextStyle(
-                        color: Colors.white,
-                        letterSpacing: 2.0,
+                    TextButton.icon(
+                      icon: Icon(Icons.qr_code_scanner,
+                          color: Colors.white, size: 30.0),
+                      label: Text(
+                        'SCAN',
+                        style: TextStyle(
+                          color: Colors.white,
+                          letterSpacing: 2.0,
+                          fontSize: 12,
+                        ),
                       ),
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/scan');
+                      },
                     ),
                   ],
                 ),
-                SizedBox(height: 20.0),
+                SizedBox(height: 10.0),
                 Row(
                   children: <Widget>[
-                    Icon(
-                      Icons.history,
-                      color: Colors.white,
-                      size: 30.0,
-                    ),
-                    SizedBox(width: 30.0),
-                    Text(
-                      'HISTORY',
-                      style: TextStyle(
-                        color: Colors.white,
-                        letterSpacing: 2.0,
+                    TextButton.icon(
+                      icon:
+                          Icon(Icons.history, color: Colors.white, size: 30.0),
+                      label: Text(
+                        'HISTORY',
+                        style: TextStyle(
+                          color: Colors.white,
+                          letterSpacing: 2.0,
+                          fontSize: 12,
+                        ),
                       ),
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/history');
+                      },
                     ),
                   ],
                 ),
-                SizedBox(height: 20.0),
+                SizedBox(height: 10.0),
                 Row(
                   children: <Widget>[
-                    Icon(
-                      Icons.qr_code_2,
-                      color: Colors.white,
-                      size: 30.0,
-                    ),
-                    SizedBox(width: 30.0),
-                    Text(
-                      'MY QR',
-                      style: TextStyle(
-                        color: Colors.white,
-                        letterSpacing: 2.0,
+                    TextButton.icon(
+                      icon: Icon(Icons.qr_code_2,
+                          color: Colors.white, size: 30.0),
+                      label: Text(
+                        'MY QR',
+                        style: TextStyle(
+                          color: Colors.white,
+                          letterSpacing: 2.0,
+                          fontSize: 12,
+                        ),
                       ),
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/myqr');
+                      },
                     ),
                   ],
                 ),
-                SizedBox(height: 20.0),
+                SizedBox(height: 10.0),
                 Row(
                   children: <Widget>[
-                    Icon(
-                      Icons.settings,
-                      color: Colors.white,
-                      size: 30.0,
-                    ),
-                    SizedBox(width: 30.0),
-                    Text(
-                      'SETTINGS',
-                      style: TextStyle(
-                        color: Colors.white,
-                        letterSpacing: 2.0,
+                    TextButton.icon(
+                      icon:
+                          Icon(Icons.settings, color: Colors.white, size: 30.0),
+                      label: Text(
+                        'SETTINGS',
+                        style: TextStyle(
+                          color: Colors.white,
+                          letterSpacing: 2.0,
+                          fontSize: 12,
+                        ),
                       ),
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/settings');
+                      },
                     ),
                   ],
                 ),
-                SizedBox(height: 300.0),
+                SizedBox(height: 250.0),
                 Row(
                   children: <Widget>[
                     CircleAvatar(
-                      backgroundImage: AssetImage('assets/cat.jpg'),
+                      backgroundImage: AssetImage('assets/koala.jpg'),
                     ),
                     SizedBox(width: 30.0),
                     Column(

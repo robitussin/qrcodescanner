@@ -66,9 +66,6 @@ class _HistoryState extends State<History> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.grey[900],
-        leading: Icon(
-          Icons.arrow_back,
-        ),
         title: Container(
           child: Column(
             children: <Widget>[

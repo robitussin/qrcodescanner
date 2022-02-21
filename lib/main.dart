@@ -8,12 +8,11 @@ import 'package:qrcodescanner/pages/settings.dart';
 
 void main() => runApp(MaterialApp(
       routes: {
-        //'/': (context) => Login(),
+        '/': (context) => Login(),
         '/navigation': (context) => Navigation(),
-        '/Scan': (context) => Scan(),
-        '/History': (context) => History(),
+        '/scan': (context) => Scan(),
+        '/history': (context) => History(),
         '/myqr': (context) => MyQR(),
-        '/': (context) => Settings(),
-        //'/settings': (context) => Settings(),
+        '/settings': (context) => Settings(),
       },
     ));
