@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "315255581212",
+    "project_id": "vaxcertqrcodescanner",
+    "storage_bucket": "vaxcertqrcodescanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315255581212:android:6266c21e3403aad73ccdd9",
+        "android_client_info": {
+          "package_name": "com.example.qrcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315255581212-nr2sggb7veu96qkrks5n8se3i7fpm5l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsWE7QZLHe2SSXJAldUjn0LftwpFToYKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315255581212-nr2sggb7veu96qkrks5n8se3i7fpm5l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
